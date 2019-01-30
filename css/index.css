@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+
+:root {
+    font-family: 'Work Sans', sans-serif;
+    --main-bg-color: black;
+
+    }
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+body {
+    background-color: linen;
+   
+}
+
+p class {
+  width: 75%;
+  float: left;
+
+}
+
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+header .menu li {
+    list-style-type: none;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+    header nav {
+        display: flex;
+    }
+    
+    
+    header nav .menu {
+        align-items: center;
+        flex: 1;
+    }
+}
+
+ h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin: 24px auto;
+    font-weight: bold;
+    }
+    
+    header {
+        background-image: url(/.c9/img/cups.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 300px;
+       
+        
+        
+    }
+    
+    
+   .container {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+   }
+   
+    .center {
+  text-align: center;
+  color: red;
+float: right;
+width: 300px;
+  height: 20px;
+  margin: 10px;
+        
+    }
+    
+    .middle {
+text-align: center;
+color: red;
+float: right;
+width: 300px;
+  height: 20px;
+  margin: 10px;
+        
+    }
+    
+    .ending {
+        text-align: center;
+color: red;
+float: right;
+width: 300px;
+  height: 20px;
+  margin: 10px;
+    }
+
+a[target] {
+    display: flex;
+    justify-content: center;
+}
+    
